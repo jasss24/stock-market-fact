@@ -5,42 +5,48 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; /* Light blue background */
     font-family: 'Arial', sans-serif;
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for contrast */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
 }
 
 h1 {
-    color: #333;
+    color: #4b0082; /* Indigo color for the heading */
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 .fact-box {
     margin: 20px 0;
-    padding: 15px;
-    background-color: #e6f7ff;
-    border-radius: 5px;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background for the fact box */
+    border-radius: 10px;
     font-size: 1.2em;
-    color: #007acc;
+    color: #00796b; /* Teal color for the text */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #007acc;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #ff5722; /* Deep orange background for the button */
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 button:hover {
-    background-color: #005f99;
+    background-color: #e64a19; /* Darker shade of orange on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
 }
